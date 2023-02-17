@@ -1,0 +1,138 @@
+.root {
+  --primer: #822434;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  background-color: white;
+}
+/*warta section*/
+#warta {
+  text-align: center;
+  padding: 1rem;
+}
+
+#warta span {
+  color: #822434;
+}
+
+#warta .container a {
+  color: #4e1922;
+  font-weight: 500;
+}
+/*agenda section*/
+#agenda {
+  text-align: center;
+  padding: 1rem;
+}
+
+#agenda span {
+  color: #822434;
+}
+
+#agenda .container a {
+  color: #4e1922;
+  font-weight: 500;
+}
+/*informasi section*/
+#informasi .container-fluid {
+  background-color: #4e1922;
+  padding: 0.5rem 1.2rem 0.5rem 1.2rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#informasi .container-fluid img {
+  padding-bottom: 1rem;
+}
+
+#informasi .container-fluid p {
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+  color: white;
+}
+
+#informasi .container-fluid h3 {
+  padding-top: 1rem;
+  color: white;
+  padding-bottom: 0.3rem;
+}
+
+#informasi .container-fluid a {
+  text-decoration: none;
+  color: #4e1922;
+  background-color: antiquewhite;
+  border-radius: 0.2rem;
+  padding: 0.2rem;
+  font-size: medium;
+}
+
+#informasi .container-fluid a:hover {
+  opacity: 70%;
+}
+
+#informasi .container-fluid .fa {
+  padding: 0.3rem;
+}
+
+/*Halaman Lingwil*/
+.lingwil .row {
+  flex-wrap: wrap;
+}
+#lingwil .lingwil span {
+  font-weight: 500;
+  color: #822434;
+}
+
+#lingwil .lingwil h2 {
+  padding-top: 4rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+#lingwil .lingwil p {
+  text-align: center;
+  text-decoration: none;
+}
+
+#lingwil .lingwil h3 {
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 2rem;
+  font-weight: 500;
+  color: #822434;
+}
+
+/*formulir section*/
+#formulir {
+  padding: 2rem 5rem 2rem 5rem;
+}
+#formulir .eformulir h2 {
+  padding-top: 4rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+#formulir .eformulir p {
+  text-align: center;
+  text-decoration: none;
+  color: #822434;
+}
+
+#formulir .container a {
+  color: #4e1922;
+  font-weight: 600;
+}
+
+/*footer section*/
+.footer {
+  text-align: center;
+  font-size: small;
+  color: white;
+  background-color: #822434;
+  padding-bottom: 5;
+}
+
+section {
+  padding-top: 3rem;
+}
